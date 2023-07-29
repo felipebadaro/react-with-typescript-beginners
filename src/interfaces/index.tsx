@@ -1,9 +1,12 @@
 export interface Person {
   id: Number;
   name: String;
+  phrase: String;
 }
 
-export interface Product {
+export interface Cat {
+  id: Number;
   name: String;
-  value: Number;
+  age: Number;
+  miau: String;
 }
